@@ -25,18 +25,18 @@ APP_ID = int(os.environ.get("APP_ID", "20125084"))
 API_HASH = os.environ.get("API_HASH", "0abf00cabd6805a2445181af2458571c")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002049130627"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002480090713"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6699681580"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "8054660342"))
 
 #Port
 PORT = os.environ.get("PORT", "8585")
 
 #Database 
 #Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sukhwindersandhu00445:U9HA5V1eDBsIi03H@cluster0.dgqdl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Back:benchers@cluster0.z8elp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Back")
 
 #Shortner (token system) 
 # check my discription to help by using my refer link of shareus.io
