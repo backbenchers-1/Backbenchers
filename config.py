@@ -63,7 +63,8 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝙹𝚘𝚒𝚗 𝙾𝚞𝚛 𝙼𝚘𝚟𝚒𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕!\n\n𝙴𝚡𝚙𝚎𝚛𝚒𝚎𝚗𝚌𝚎 𝚝𝚑𝚎 𝚋𝚎𝚜𝚝 𝚒𝚗 𝚌𝚒𝚗𝚎𝚖𝚊 𝚠𝚒𝚝𝚑 𝚘𝚞𝚛 𝚎𝚡𝚌𝚕𝚞𝚜𝚒𝚟𝚎 𝚖𝚘𝚟𝚒𝚎 𝚌𝚑𝚊𝚗𝚗𝚎𝚕. 𝙶𝚊𝚒𝚗 𝚊𝚌𝚌𝚎𝚜𝚜 𝚝𝚘 𝚝𝚑𝚎 𝚕𝚊𝚝𝚎𝚜𝚝 𝚋𝚕𝚘𝚌𝚔𝚋𝚞𝚜𝚝𝚎𝚛𝚜, 𝚝𝚒𝚖𝚎𝚕𝚎𝚜𝚜 𝚌𝚕𝚊𝚜𝚜𝚒𝚌𝚜, 𝚊𝚗𝚍 𝚑𝚒𝚍𝚍𝚎𝚗 𝚐𝚎𝚖𝚜. 𝚂𝚝𝚎𝚙 𝚒𝚗𝚝𝚘 𝚊 𝚠𝚘𝚛𝚕𝚍 𝚘𝚏 𝚎𝚗𝚍𝚕𝚎𝚜𝚜 𝚎𝚗𝚝𝚎𝚛𝚝𝚊𝚒𝚗𝚖𝚎𝚗𝚝.\n 𝙹𝚘𝚒𝚗 𝚝𝚑𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝙽𝚘𝚠!")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>Yᴏᴜ ʜᴀᴠᴇ ɴᴏᴛ Jᴏɪɴᴇᴅ ᴀʟʟ ᴏᴜʀ Bᴀᴄᴋᴜᴘ Cʜᴀɴɴᴇʟs.\nPʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ Jᴏɪɴ Bᴀᴄᴋᴜᴘ Cʜᴀɴɴᴇʟs ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴀɴᴅ
+ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ ᴊᴏɪɴ ᴀʟʟ ᴄʜᴀɴɴᴇʟs ʟɪsᴛᴇᴅ.\nAғᴛᴇʀ ᴛʜᴀᴛ, ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɢᴀɪɴ.</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "This video/Photo/anything is available on the internet. We LeakHubd or its subsidiary channel doesn't produce any of them.")
