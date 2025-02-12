@@ -19,10 +19,10 @@ GET_INFORM = os.environ.get("GET_INFORM" , "File was deleted after {DELETE_AFTER
 
 #Your API ID & API HASH from my.telegram.org [https://youtu.be/gZQJ-yTMkEo?si=H4NlUUgjsIc5btzH]
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "14031130"))
+APP_ID = int(os.environ.get("APP_ID", "20125084"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "e24c9b194237b7874ee602d782521a67")
+API_HASH = os.environ.get("API_HASH", "0abf00cabd6805a2445181af2458571c")
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002049130627"))
