@@ -8,8 +8,8 @@ TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 
 BAN = int(os.environ.get("BAN", "498459845"))
-DELETE_AFTER = int(os.environ.get("DELETE_AFTER", 1800)) #seconds
-NOTIFICATION_TIME = int(os.environ.get('NOTIFICATION_TIME', 60)) #seconds
+DELETE_AFTER = int(os.environ.get("DELETE_AFTER", 300)) #seconds
+NOTIFICATION_TIME = int(os.environ.get('NOTIFICATION_TIME', 300)) #seconds
 AUTO_DELETE = os.environ.get("AUTO_DELETE", True) #ON/OFF
 DELETE_INFORM = os.environ.get("INFORM" , "Successfully DELETED !!")
 NOTIFICATION = os.environ.get("NOTIFICATION" ,f"𝚃𝚑𝚒𝚜 𝙵𝚒𝚕𝚎 𝚆𝚒𝚕𝚕 𝙱𝚎 𝚍𝚎𝚕𝚎𝚝𝚎𝚍 𝙸𝚗 {DELETE_AFTER}")
